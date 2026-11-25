@@ -1,0 +1,28 @@
+#Copyright 2025 β ORI Inc.Canada All Rights Reserved.
+Syed, Awase Khirni Ph.D
+
+
+No,Benchmark,Description,Category,Specialized Legal LLM (Best),Top Proprietary LLM,Top Open-Source LLM,Metric
+1,LegalBench,Collaboratively built benchmark measuring legal reasoning in English across diverse tasks like contract review and statutory interpretation 10.,Legal Reasoning,SaulLM-7B / LawLLM,GPT-4 / Claude 3.5 Sonnet,Llama 3 70B,Accuracy / F1 Score
+2,LawBench,"20-task Chinese legal benchmark structured by three cognitive levels: memorization, understanding, and application "29.,Legal QA & Reasoning,DISC-Law / ChatLaw,GPT-4,Qwen2.5 72B,Accuracy / F1 / ROUGE-L
+3,LexEval,"Largest Chinese legal evaluation dataset comprising 23 tasks and 14,150 questions covering memorization, understanding, application, and ethics "37.,Legal QA & Ethics,InternLM-Law / Ziya-Law,Claude 3.5 Sonnet,Qwen2.5 72B,Accuracy
+4,COLIEE,"Competition on Legal Information Extraction/Entailment, focusing on case law retrieval and entailment (e.g., Japanese/Canadian bar exams) "47.,Legal Retrieval & Entailment,XLaw-JP-27B,GPT-4,Llama 3 70B,F1 Score / NDCG
+5,ContractNLI,"Document-level natural language inference dataset for contracts, testing if a contract entails, contradicts, or is neutral to a hypothesis "62.,Contract Analysis,SaulLM-7B,Claude 3.5 Sonnet,Mixtral 8x22B,Accuracy / F1
+6,CUAD,Contract Understanding Atticus Dataset: expert-annotated dataset to automate legal contract review by identifying 41 types of important clauses 58.,Contract Analysis,LawLLM,GPT-4,Llama 3 70B,F1 Score / Precision / Recall
+7,LexGLUE,"Benchmark suite for legal language understanding in English, aggregating multiple datasets like LEDGAR, CaseHOLD, and ContractNLI "69.,Legal NLU,Legal-BERT,GPT-4,Llama 3 70B,Macro F1 / Accuracy
+8,CaseHOLD,"Dataset of over 53,000 multiple-choice questions to identify the holding of a cited case from US legal opinions "80.,Case Law Reasoning,LawLLM,GPT-4,Llama 3 70B,Accuracy
+9,MAUD,Merger Agreement Understanding Dataset: expert-annotated dataset facilitating NLP research on specialized M&A review tasks with 92 question types 88.,Contract Analysis (M&A),LawLLM,GPT-4,Llama 3 70B,F1 Score / Exact Match
+10,LEDGAR,Large dataset for classifying contractual provisions and boilerplate clauses in legal agreements 83.,Contract Analysis,Legal-BERT,GPT-4,Qwen2.5 72B,Accuracy / Macro F1
+11,LAiW,"Chinese legal LLM benchmark structured around the legal syllogism, evaluating models across progressively complex capability levels "7.,Legal Reasoning,ChatLaw,GPT-4,Qwen2.5 72B,Accuracy
+12,NitiBench+,"Temporal Thai legal question-answering benchmark across 17 domains, testing time-correct law application and citation accuracy "30.,Legal QA,Thai Legal LLMs,GPT-4,Qwen2.5 72B,Accuracy / Citation Overlap
+13,ViLegalExpert,Large-scale benchmark for Vietnamese legal retrieval and question answering derived from real-world legal consultations 44.,Legal QA & Retrieval,ViLegalExpert Model,GPT-4,Qwen2.5 72B,Accuracy / F1
+14,LexGenius,"Expert-level benchmark for large language models in legal general intelligence, testing advanced multi-step legal reasoning "23.,Legal General Intelligence,SaulLM-7B,Claude 3.5 Sonnet,Llama 3 70B,Accuracy / LLM-as-a-Judge Score
+15,UK-PRBENCH,Paragraph-level precedent retrieval benchmark for United Kingdom case law 1.,Legal Retrieval,Legal-BERT (adapted),GPT-4,Qwen2.5 72B,NDCG / Recall@K
+16,Pub-LawBench,"Public-oriented benchmarking for LegalAI, focusing on accessibility and public legal queries rather than expert-only tasks "54.,Public Legal QA,ChatLaw,GPT-4,Llama 3 70B,Accuracy / ROUGE
+17,GreekBarRetrieval,"Benchmark for Greek statutory retrieval, testing models on Greek legal code navigation and comprehension "1.,Legal Retrieval,Greek Legal LLM,GPT-4,Llama 3 70B,Recall@K / MRR
+18,BILAL-BENCH,"Benchmark evaluating Islamic-source fabrication and Hanafi fiqh rulings, including specific legal-domain subsets "1.,Religious/Legal QA,Ansari,GPT-4,Qwen2.5 72B,Accuracy / Fabrication Rate
+19,ContractEval,Benchmark for clause-level legal risk and discrepancy detection in commercial contracts 57.,Contract Analysis,SaulLM-7B,Claude 3.5 Sonnet,Llama 3 70B,F1 Score / Precision
+20,ImmigrationQA,Source-grounded dataset and evaluation framework specifically designed for U.S. Immigration Law question answering 1.,Legal QA,LawLLM,GPT-4,Llama 3 70B,Accuracy / Faithfulness
+
+
+need to do more research to identify more in the list to bring to top 50
