@@ -23,6 +23,55 @@ No,Benchmark,Description,Category,Specialized Legal LLM (Best),Top Proprietary L
 18,BILAL-BENCH,"Benchmark evaluating Islamic-source fabrication and Hanafi fiqh rulings, including specific legal-domain subsets "1.,Religious/Legal QA,Ansari,GPT-4,Qwen2.5 72B,Accuracy / Fabrication Rate
 19,ContractEval,Benchmark for clause-level legal risk and discrepancy detection in commercial contracts 57.,Contract Analysis,SaulLM-7B,Claude 3.5 Sonnet,Llama 3 70B,F1 Score / Precision
 20,ImmigrationQA,Source-grounded dataset and evaluation framework specifically designed for U.S. Immigration Law question answering 1.,Legal QA,LawLLM,GPT-4,Llama 3 70B,Accuracy / Faithfulness
+21,BillSum,Legal Drafting / Summarization,US Congressional and California legislative bills summarization and clause generation.
+22,Multi-EUR-Lex,Multilingual Legal NLU,"EU legal text classification, retrieval, and cross-lingual alignment across 24 languages."
+23,ECtHR Dataset,Case Outcome Prediction,European Court of Human Rights case facts to violation detection and outcome prediction.
+24,TREC Legal / RAI-ED,E-Discovery & Privilege,"E-discovery relevance ranking, privilege detection, and responsive document classification."
+25,Claudette,Regulatory Compliance,"GDPR compliance checking, identifying non-compliant clauses in privacy policies and contracts."
+26,PrivacyQA,Legal QA,"Question answering on privacy policies, focusing on data collection, sharing, and user rights."
+27,TaxBench / TaxQA,Specialized Law (Tax),"US/International tax code reasoning, calculation, and scenario-based compliance checking."
+28,PatentBench / PatNet,Intellectual Property,"Patent claim analysis, prior art retrieval, and obviousness/invalidity reasoning."
+29,CourtListener / OpSum,Judicial Summarization,"Summarizing long, complex judicial opinions into headnotes and key holdings."
+30,Contract-Gen / Cuad-Gen,Legal Drafting,Generating contract clauses from natural language instructions while preserving legal validity.
+31,BreachBench,Regulatory Compliance,"Data breach notification compliance, timeline analysis, and jurisdictional requirement mapping."
+32,FINRA/SEC ComplianceBench,Financial Regulatory,Regulatory compliance checking for financial services (leveraging your 18 years of domain expertise).
+33,FamilyLaw-QA,Specialized Law / Safety,"Custody, support, and divorce scenario analysis (high-value for bias/toxicity evaluation)."
+34,CriminalSentencingBench,Fairness & Bias,Predicting sentencing outcomes and identifying demographic or nationality bias in fact patterns.
+35,AsylumBench,Specialized Law (Immigration),"Asylum case outcome prediction based on country conditions, testimony, and protected grounds."
+36,StatuteLink / CitationNet,Legal Retrieval,"Evaluating the accuracy of legal citation networks and ""Shepardizing"" (overruled/superseded status)."
+37,XLegalNLI,Multilingual Legal NLI,Cross-lingual legal natural language inference for globalized legal operations.
+38,UKP-Athens / ArgumentMine,Legal Reasoning,"Identifying premises, conclusions, and rhetorical moves in legal briefs and judgments."
+39,DueDiligence-QA,Contract / M&A,"Extracting financial, operational, and legal risks from simulated M&A data rooms."
+40,FOIA / PublicRecordsBench,Public Law / Retrieval,"Freedom of Information Act request fulfillment, exemption justification, and redaction reasoning."
+41,EmploymentLawBench,Specialized Law,"Discrimination, wage-hour, and wrongful termination scenario analysis and risk flagging."
+42,PropertyLawBench,Specialized Law,"Title review, zoning compliance, and commercial lease agreement analysis."
+43,IP-LitigationBench,Intellectual Property,Trademark and copyright infringement fact-pattern analysis and likelihood-of-confusion reasoning.
+44,Legal-Chat-SafetyBench,Robustness & Safety,Adversarial prompts specifically designed to elicit Unauthorized Practice of Law (UPL) or harmful advice.
+45,TemporalLawBench,Legal Reasoning,"Evaluating model performance on laws that have been amended, repealed, or enacted over specific timelines."
+46,NegotiationBench,Contract Analysis,Evaluating AI's ability to suggest redlines that balance risk reduction with preserved commercial intent.
+47,JuryInstructionBench,Public Legal QA,Simplifying complex jury instructions and legal jargon for layperson comprehension (plain language).
+48,InternationalTradeBench,Regulatory Compliance,"Tariff, sanctions, and export control compliance reasoning across multiple jurisdictions."
+49,Legal-OCR-NoiseBench,Robustness,"Evaluation on scanned, noisy, handwritten, or poorly formatted real-world legal documents."
+50,Agentic-Legal-WorkflowBench,Agentic AI,"Multi-step tool use evaluation (e.g., search database → read doc → draft memo → verify citation)."1,LegalBench,Collaboratively built benchmark measuring legal reasoning in English across diverse tasks like contract review and statutory interpretation 10.,Legal Reasoning,SaulLM-7B / LawLLM,GPT-4 / Claude 3.5 Sonnet,Llama 3 70B,Accuracy / F1 Score
+2,LawBench,"20-task Chinese legal benchmark structured by three cognitive levels: memorization, understanding, and application "29.,Legal QA & Reasoning,DISC-Law / ChatLaw,GPT-4,Qwen2.5 72B,Accuracy / F1 / ROUGE-L
+3,LexEval,"Largest Chinese legal evaluation dataset comprising 23 tasks and 14,150 questions covering memorization, understanding, application, and ethics "37.,Legal QA & Ethics,InternLM-Law / Ziya-Law,Claude 3.5 Sonnet,Qwen2.5 72B,Accuracy
+4,COLIEE,"Competition on Legal Information Extraction/Entailment, focusing on case law retrieval and entailment (e.g., Japanese/Canadian bar exams) "47.,Legal Retrieval & Entailment,XLaw-JP-27B,GPT-4,Llama 3 70B,F1 Score / NDCG
+5,ContractNLI,"Document-level natural language inference dataset for contracts, testing if a contract entails, contradicts, or is neutral to a hypothesis "62.,Contract Analysis,SaulLM-7B,Claude 3.5 Sonnet,Mixtral 8x22B,Accuracy / F1
+6,CUAD,Contract Understanding Atticus Dataset: expert-annotated dataset to automate legal contract review by identifying 41 types of important clauses 58.,Contract Analysis,LawLLM,GPT-4,Llama 3 70B,F1 Score / Precision / Recall
+7,LexGLUE,"Benchmark suite for legal language understanding in English, aggregating multiple datasets like LEDGAR, CaseHOLD, and ContractNLI "69.,Legal NLU,Legal-BERT,GPT-4,Llama 3 70B,Macro F1 / Accuracy
+8,CaseHOLD,"Dataset of over 53,000 multiple-choice questions to identify the holding of a cited case from US legal opinions "80.,Case Law Reasoning,LawLLM,GPT-4,Llama 3 70B,Accuracy
+9,MAUD,Merger Agreement Understanding Dataset: expert-annotated dataset facilitating NLP research on specialized M&A review tasks with 92 question types 88.,Contract Analysis (M&A),LawLLM,GPT-4,Llama 3 70B,F1 Score / Exact Match
+10,LEDGAR,Large dataset for classifying contractual provisions and boilerplate clauses in legal agreements 83.,Contract Analysis,Legal-BERT,GPT-4,Qwen2.5 72B,Accuracy / Macro F1
+11,LAiW,"Chinese legal LLM benchmark structured around the legal syllogism, evaluating models across progressively complex capability levels "7.,Legal Reasoning,ChatLaw,GPT-4,Qwen2.5 72B,Accuracy
+12,NitiBench+,"Temporal Thai legal question-answering benchmark across 17 domains, testing time-correct law application and citation accuracy "30.,Legal QA,Thai Legal LLMs,GPT-4,Qwen2.5 72B,Accuracy / Citation Overlap
+13,ViLegalExpert,Large-scale benchmark for Vietnamese legal retrieval and question answering derived from real-world legal consultations 44.,Legal QA & Retrieval,ViLegalExpert Model,GPT-4,Qwen2.5 72B,Accuracy / F1
+14,LexGenius,"Expert-level benchmark for large language models in legal general intelligence, testing advanced multi-step legal reasoning "23.,Legal General Intelligence,SaulLM-7B,Claude 3.5 Sonnet,Llama 3 70B,Accuracy / LLM-as-a-Judge Score
+15,UK-PRBENCH,Paragraph-level precedent retrieval benchmark for United Kingdom case law 1.,Legal Retrieval,Legal-BERT (adapted),GPT-4,Qwen2.5 72B,NDCG / Recall@K
+16,Pub-LawBench,"Public-oriented benchmarking for LegalAI, focusing on accessibility and public legal queries rather than expert-only tasks "54.,Public Legal QA,ChatLaw,GPT-4,Llama 3 70B,Accuracy / ROUGE
+17,GreekBarRetrieval,"Benchmark for Greek statutory retrieval, testing models on Greek legal code navigation and comprehension "1.,Legal Retrieval,Greek Legal LLM,GPT-4,Llama 3 70B,Recall@K / MRR
+18,BILAL-BENCH,"Benchmark evaluating Islamic-source fabrication and Hanafi fiqh rulings, including specific legal-domain subsets "1.,Religious/Legal QA,Ansari,GPT-4,Qwen2.5 72B,Accuracy / Fabrication Rate
+19,ContractEval,Benchmark for clause-level legal risk and discrepancy detection in commercial contracts 57.,Contract Analysis,SaulLM-7B,Claude 3.5 Sonnet,Llama 3 70B,F1 Score / Precision
+20,ImmigrationQA,Source-grounded dataset and evaluation framework specifically designed for U.S. Immigration Law question answering 1.,Legal QA,LawLLM,GPT-4,Llama 3 70B,Accuracy / Faithfulness
 
 
 need to do more research to identify more in the list to bring to top 50
